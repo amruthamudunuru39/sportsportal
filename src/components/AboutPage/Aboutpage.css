@@ -1,0 +1,65 @@
+/* AboutPage.css */
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-content {
+    line-height: 1.5;
+  }
+ 
+  
+  .about-title {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    /* Add any other styles */
+  }
+  
+  .section-title {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    /* Add any other styles */
+  }
+  
+  .content-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    /* Add any other styles */
+  }
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .facilities-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .facilities-table th,
+  .facilities-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .facilities-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .facilities-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  
+  
