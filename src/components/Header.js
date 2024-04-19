@@ -1,4 +1,4 @@
-import myImage from "./logo1.jpg";
+import myImage from "./logo2.jpg";
 
 
 import "./Header.css";

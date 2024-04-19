@@ -12,12 +12,11 @@ import Staff from './components/Staff';
 import Achievements from './components/Achievements';
 import Gymnasium from './components/Gymnasium';
 import Slideshow from './components/Slideshow';
+import Notifications from './components/Notifications/Notifications'; 
 import Footer from './components/Footer'; // Import the Footer component
 import sportsimg1 from './images/sportsimg1.jpg';
-import sportsimg2 from './images/sportsimg2.jpg';
 import sportsimg3 from './images/sportsimg3.jpg';
 import sportimg4 from './images/sportimg4.jpg';
-import sportimg5 from './images/sportimg5.jpg';
 
 import './App.css';
 
@@ -31,7 +30,7 @@ const SlideshowComponent = ({ images }) => {
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('slideshow'); // Default to slideshow
-  const images =[sportsimg1,sportsimg2,sportsimg3,sportimg4,sportimg5];
+  const images =[sportsimg1,sportsimg3,sportimg4];
 
   const handleNavigation = (page) => {
     setCurrentPage(page);
@@ -62,6 +61,7 @@ const App = () => {
             {currentPage === 'staff' && <Staff />}
             {currentPage === 'achievements' && <Achievements />}
             {currentPage === 'gymnasium' && <Gymnasium />}
+            {currentPage === 'notifications' && <Notifications />}
           </div>
         </div>
         <Footer /> {/* Include the Footer component */}

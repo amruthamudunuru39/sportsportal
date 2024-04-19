@@ -4,7 +4,7 @@ import './Playfields.css'; // Import Playfields.css for styling
 const Playfields = () => {
   return (
     <div className="playfields-container">
-      <h1>Playfields</h1>
+      <h1 style={{ color: 'black' }}>Playfields</h1>
       <table className="playfields-table">
         <thead>
           <tr>
@@ -14,7 +14,6 @@ const Playfields = () => {
           </tr>
         </thead>
         <tbody>
-          {/* Replace the numbers in the first column with your own */}
           <tr>
             <td>1</td>
             <td>ATHLETICS TRACK (200 Mts)</td>
@@ -88,6 +87,11 @@ const Playfields = () => {
           {/* Add more rows for other playfields */}
         </tbody>
       </table>
+      <div className="playfields-info">
+        <p className="info-text">
+          The playfields at our sports facility offer a diverse range of opportunities for athletic pursuits. Our 200-meter athletics track provides a space for runners to hone their speed and endurance. The basketball court, whether concrete or synthetic, caters to both casual games and competitive matches. Badminton enthusiasts can enjoy nine outdoor courts, while ball badminton enthusiasts have a dedicated space for their sport. Cricket enthusiasts have access to multiple practice pitches and a full-fledged cricket ground. Additionally, our facility includes fields for football, handball, hockey, kabaddi, kho-kho, tennis, and volleyball, ensuring that athletes of all disciplines have the resources they need to thrive.
+        </p>
+      </div>
     </div>
   );
 };

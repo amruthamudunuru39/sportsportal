@@ -7,9 +7,9 @@ const NewsUpdates = () => {
       <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0, 0, 0, 0.3)', zIndex: 1, backdropFilter: 'blur(4px)' }}></div>
       <h2 style={{ fontSize: '28px', marginBottom: '20px', zIndex: 2, position: 'relative' }}>News & Updates</h2>
       <div style={{ marginBottom: '20px', zIndex: 2, position: 'relative' }}>
-        <p>JNTUGV UNIVERSITY COLLEGE OF ENGINEERING, VIZIANAGARAM conducted KHO-KHO Men and Women Inter College Tournament cum Inter University Selection Trials on Nov-16, 2023.</p>
-        <p>JNTUGV UNIVERSITY COLLEGE OF ENGINEERING, VIZIANAGARAM conducted Taekwondo Men and Women Inter College Tournament cum Inter University Selection Trials on Nov-26, 2023.</p>
-        <p>JNTUGV UNIVERSITY COLLEGE OF ENGINEERING, VIZIANAGARAM conducted Table Tennis Men Inter College Tournament cum Inter University Selection Trials on Nov-26, 2023.</p>
+        <p><b>JNTUGV UNIVERSITY COLLEGE OF ENGINEERING, VIZIANAGARAM conducted KHO-KHO Men and Women Inter College Tournament cum Inter University Selection Trials on Nov-16, 2023.</b></p>
+        <p><b>JNTUGV UNIVERSITY COLLEGE OF ENGINEERING, VIZIANAGARAM conducted Taekwondo Men and Women Inter College Tournament cum Inter University Selection Trials on Nov-26, 2023.</b></p>
+        <p><b>JNTUGV UNIVERSITY COLLEGE OF ENGINEERING, VIZIANAGARAM conducted Table Tennis Men Inter College Tournament cum Inter University Selection Trials on Nov-26, 2023.</b></p>
       </div>
     </div>
   );

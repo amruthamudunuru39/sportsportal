@@ -7,7 +7,7 @@ const AboutPage = () => {
       <h1 className="about-title">About the Department of Physical Education</h1>
       <div className="about-content">
         <h2 className="section-title">Introduction</h2>
-        <p className="content-text">
+        <p className="content-text" style={{ fontSize: '16px' }}> {/* Set font size to 16px */}
           The Department of Physical Education at [Institute Name] is dedicated to providing top-notch training facilities for students and staff alike. Our infrastructure supports a wide range of outdoor and indoor games, fostering a culture of physical fitness and sportsmanship within the institute.
         </p>
 

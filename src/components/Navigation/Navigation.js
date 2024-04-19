@@ -55,6 +55,11 @@ const Navigation = ({ handleNavigation }) => {
             Gymnasium
           </Link>
         </li>
+        <li>
+        <Link to="/notifications" onClick={() => handleClick('notifications')}>
+            Notifications
+          </Link>
+        </li>
       </ul>
     </nav>
   );

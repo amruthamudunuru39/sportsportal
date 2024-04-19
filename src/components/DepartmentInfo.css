@@ -1,61 +1,38 @@
-.department-info h2 {
-    color: #333;
-    font-weight: normal;
-    font-size: 22px;
+.department-info {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.section-title {
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase; /* Transform text to uppercase */
+  font-size: 24px; /* Increase font size for the title */
+  font-weight: bold; /* Make the title bold */
+}
+
+.section-text {
+  color: #666;
+  line-height: 1.6;
+  font-size: 16px; /* Adjust font size for the text */
+}
+
+  .department-info {
+    background-color: #f2f2f2; /* Light gray background color */
+    padding: 20px; /* Add some padding around the content */
+    border-radius: 10px; /* Add rounded corners to the container */
   }
   
-  @media (max-width: 414px) {
-    .department-info p {
-      color: #000;
-      margin-bottom: 10px;
-      font-size: 14px;
-      margin-top: 5px;
-      line-height: 20px;
-    }
-  }
-  
-  .department-info h3 {
-    font-size: 18px;
-    color: #0d3174;
-    margin: 10px 0;
-    font-weight: 600;
-    line-height: 30px;
-  }
-  
-  .list-items {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
-    margin-top: 10px;
-    display: block; /* Ensure the list is displayed as a block-level element */
-    list-style-type: disc; /* Add bullets (disc style) for the list items */
-  }
-  
-  .list-items li {
-    display: block;
-    margin-bottom: 5px;
-  }
   .section-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Add some space below the title */
   }
   
   .section-text {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
+    color: #555; /* Slightly lighter text color */
+    line-height: 1.6; /* Increase line height for better readability */
   }
   
-  .subsection-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: #555;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .activity-list {
-    font-size: 16px;
-    margin-left: 20px;
-  }
   
